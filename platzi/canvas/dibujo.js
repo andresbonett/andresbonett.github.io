@@ -13,13 +13,20 @@ function dibujarLinea(c, x1, y1, x2, y2) {
 var lineas = 30;
 var l = 0;
 var yi, xf;
-var colorcito
+var nyi;
+var nxf = 300;
+var colorcito = "grey";
 
 for (l = 0; l < lineas; l++) {
 	yi = 10 * l;
-	xf = yi++
+	xf = yi++;
+	nxf = nxf - 10;
 	dibujarLinea(colorcito,0,yi,xf,300);
+	dibujarLinea(colorcito,300,yi,xf,0);
+	dibujarLinea(colorcito,yi,300,300,nxf);
+	dibujarLinea(colorcito,0,nxf,yi,0);
 }
+
 dibujarLinea("red",1,1,1,299);
 dibujarLinea("red",1,299,299,299);
 dibujarLinea("green",299,299,299,1);
