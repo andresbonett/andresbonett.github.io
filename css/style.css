@@ -1,3 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
-	background-color: grey;
+	background-color:#0070DD;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+	width: 100%;
+	overflow: hidden;
+	background: white;
+	margin-bottom: 20px;
+}
+
+header .logo {
+	float: left;
+	
+}
+
+header div nav {
+	float: right;
+	line-height: 200px;
+}
+header div nav a {
+	display:inline-block;
+	color: #0070DD;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+header div nav a:hover {
+	background:#0070DD;
+	border-radius: 50px;
+	color: #fff
+}
+
+.contenido {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
 }
