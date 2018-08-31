@@ -6,6 +6,8 @@
 body{
 	background-color:#0070DD;
 	font-family: 'Ubuntu', sans-serif;
+	background-image: url("../clouds.jpg");
+	background-position: 50% 50%;
 }
 
 header{
@@ -15,16 +17,23 @@ header{
 	margin-bottom: 20px;
 }
 
-header .logo {
+header div .logo {
 	float: left;
-	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 150px;
 }
 
-header div nav {
-	float: right;
-	line-height: 200px;
+header div .logo img {
+	width: 100%;
 }
-header div nav a {
+
+header div .menu {
+	float: right;
+	line-height: 50px;
+	padding-top: 20px;
+}
+header div .menu a {
 	display:inline-block;
 	color: #0070DD;
 	text-decoration: none;
@@ -48,4 +57,9 @@ header div nav a:hover {
 	max-width: 1000px;
 	margin: auto;
 	overflow: hidden;
+	background-color: rgba(255,255,255,.5);
+}
+
+.contenedor {
+	text-align: center;
 }
