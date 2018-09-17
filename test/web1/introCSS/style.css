@@ -1,0 +1,42 @@
+body {
+	background-color: red;
+}
+
+section {
+	width: 400px;
+	background-color: rgba(255, 100, 100, .7);
+	border: solid;
+	border-color: rgba(255, 150, 150, .9);
+	margin: 1rem;
+	padding: 1rem;
+/*	width: 18%;*/
+	float: left;
+}
+
+img {
+	width: 100%;
+}
+
+@media (min-width: 360px){
+	section {
+		background-color: rgba(0, 100, 255, .7);
+		width: 18%;
+	}
+
+}
+
+@media (min-width: 480px){
+	section {
+		background-color: rgba(20, 255, 100, .7);
+		width: 45%;
+	}
+
+}
+
+@media (min-width: 768){
+	section {
+		background-color: rgba(0, 100, 255, .7);
+		width: 90%;
+	}
+
+}
