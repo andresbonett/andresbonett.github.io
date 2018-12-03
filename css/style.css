@@ -63,3 +63,15 @@ header div nav a:hover {
 .contenedor {
 	text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+	header{
+		width: 100%;
+
+		margin-bottom: 10px;
+	}
+
+	header div .menu {
+		display: none;
+	}
+}
