@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Andres Bonett - 404</title>
+    <!-- Assets -->
+    <link rel="icon" type="image/png" href="img/yo.jfif" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+      integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <style>
+      .info {
+        height: calc(100vh - 70px);
+      }
+      .errorBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;;
+        height: 50vh;
+      }
+      .error {
+        font-size: x-large;
+        font-weight: 700;
+        color: #1b2127;
+      }
+      .code {
+        font-size: 5em;
+        font-weight: 700;
+        color: #026fff;
+        text-shadow: 2px 2px 4px #1b2127;
+      }
+      .error-link {
+        text-decoration: none;
+        color: #026fff;
+      }
+      .error-link:hover {
+        text-decoration: underline;
+      }
+
+      @media screen and (max-width: 480px){
+        .errorBox {
+          height: 25vh;
+        }
+      }
+
+      .footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+      }
+      .contact {
+        position: absolute;
+        width: 100%;
+        bottom: 100px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+          <img src="/img/logo_ab.png" alt="Logo" />
+        </figure>
+      </div>
+    </header>
+
+    <div class="info">
+      <div class="errorBox">
+        <div class="error code">404!</div>
+        <div class="error">Estas Perdido?</div>
+        <div class="error">click <a class="error-link" href="index.html">Aquí</a></span> para ver mi web</div>
+      </div>
+      <section id="contacto" class="contact">
+        <div class="container">
+          <form class="form-email" action="/suscripcion/">
+            <label for="email">
+              <h3>Creamos algo juntos!</h3>
+              <input id="email" type="text" placeholder="Dejame tu Email" />
+            </label>
+            <button type="submit">Enviar</button>
+          </form>
+          <div class="social">
+            <a href="#" class="social-link twitter"></a>
+            <a href="#" class="social-link facebook"></a>
+            <a href="#" class="social-link instagram"></a>
+            <a href="#" class="social-link github"></a>
+            <a href="#" class="social-link linkedin"></a>
+          </div>
+        </div>
+      </section>
+  
+      <footer class="footer">
+        <div class="container">
+          <div>Curso Desarrollo Web de Platzi</div>
+          <div>
+            Diseñado por
+            <a target="_blank" href="http://www.twitter.com/andresbonettm"
+              >Andres Bonett
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    
+    </script>
+  </body>
+</html>

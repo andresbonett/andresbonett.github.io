@@ -3,25 +3,6 @@ body {
   margin: 0px;
 }
 
-/* .fa-bars {
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  position: sticky;
-  z-index: 1000;
-  font-size: 5em;
-  color: white;
-  padding: .4em;
-  background: rgba(0,0,0,.2);
-  top: 10px;
-  left: 10px;
-  border-radius: 50%;
-} */
 .menu-icon{
   width: 40px;
   height: 40px;
