@@ -17,7 +17,10 @@
     </script>
 
     <!-- Meta Datos -->
-    <meta name="google-site-verification" content="O-xukJ8gUgI_YS9Qph-KsrBt7YSjkmuG6qmf5Gg3hI4" />
+    <meta
+      name="google-site-verification"
+      content="O-xukJ8gUgI_YS9Qph-KsrBt7YSjkmuG6qmf5Gg3hI4"
+    />
     <meta name="title" content="Andres Bonett" />
     <meta
       name="description"
@@ -250,18 +253,18 @@
     </footer>
 
     <script>
-      const ipad = window.matchMedia("screen and ()max-width:767px");
-
       const menu = document.querySelector(".menu");
       const boton = document.querySelector("#menu-icon");
 
-      ipad.addListener(validation);
+      // const ipad = window.matchMedia("screen and ()max-width:767px");
+      // ipad.addListener(validation);
+      // function validation(event) {
+      //   if (event.matches) {
+      //     boton.addEventListener("click", hideShow);
+      //   }
+      // }
 
-      function validation(event) {
-        if (event.matches) {
-          boton.addEventListener("click", hideShow);
-        }
-      }
+      boton.addEventListener("click", hideShow);
 
       function hideShow() {
         if (menu.classList.contains("is-active")) {
