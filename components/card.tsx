@@ -2,8 +2,19 @@ import Image from "next/image";
 
 const Card = ({ url, image, title }) => {
   return (
-    <a href={url} target="_blank" className="project project-tile">
-      <img className="project-image" src={image} alt={title} />
+    <a
+      href={url}
+      target="_blank"
+      rel="noreferrer"
+      className="project project-tile"
+    >
+      <Image
+        className="project-image"
+        src={image}
+        alt={title}
+        width={274}
+        height={274}
+      />
       <p className="project-title">
         <span className="code">&lt;</span>
         {title}

@@ -25,7 +25,7 @@ const Projects = () => {
 
       <div className="projects-grid">
         {projectsList.map(({ url, image, title }) => (
-          <Card url={url} image={image} title={title} />
+          <Card key={url} url={url} image={image} title={title} />
         ))}
       </div>
 
@@ -33,6 +33,7 @@ const Projects = () => {
         href="https://codepen.io/andresbonett/"
         className="btn btn-show-all"
         target="_blank"
+        rel="noreferrer"
       >
         <i className="fab fa-codepen"></i> CodePen
         <i className="fas fa-chevron-right"></i>

@@ -6,4 +6,7 @@ const debug = process.env.NODE_ENV !== "production";
 
 module.exports = {
   assetPrefix: !debug ? "https://andresbonett.github.io" : "",
+  images: {
+    domains: ['i.ibb.co'],
+  },
 };
