@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+/* eslint-disable @next/next/no-img-element */
 const Card = ({ url, image, title }) => {
   return (
     <a
@@ -8,13 +7,7 @@ const Card = ({ url, image, title }) => {
       rel="noreferrer"
       className="project project-tile"
     >
-      <Image
-        className="project-image"
-        src={image}
-        alt={title}
-        width={274}
-        height={274}
-      />
+      <img className="project-image" src={image} alt={title} />
       <p className="project-title">
         <span className="code">&lt;</span>
         {title}
