@@ -10,6 +10,16 @@ export default function Home() {
     <>
       <Head>
         <link rel="shortcut icon" href="../public/favicon.ico" />
+        <title>Andres Bonett</title>
+        <meta
+          name="description"
+          content="Personal page and web development portfolio of andres bonett, designed to have one more point of contact with my clients"
+        />
+        <meta
+          name="keywords"
+          content="Andrés Bonett, Andres Bonett, Web Developer, portafolio"
+        />
+        <meta name="robots" content="index, follow" />
       </Head>
       <Header />
       <Hero />
@@ -17,6 +27,7 @@ export default function Home() {
       <Contact />
       <Footer />
       {/* <Link href="/about" as={process.env.BACKEND_URL + '/about'}></Link> */}
+      Ana
     </>
   );
 }
