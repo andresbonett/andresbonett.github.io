@@ -7,7 +7,7 @@ import "../styles/global.css";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <GoogleTagManager>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </GoogleTagManager>
   );
 }
