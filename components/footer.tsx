@@ -7,7 +7,7 @@ const Footer = () => {
       <p>
         &copy; Created by{" "}
         <Link href="/">
-          <a>Andres Bonett</a>
+          Andres Bonett
         </Link>
       </p>
     </footer>
