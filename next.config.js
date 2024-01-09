@@ -1,9 +1,19 @@
-// This file is not going through babel transformation.
-// So, we write it in vanilla JS
-// (But you could use ES2015 features supported by your Node.js version)
-
 const debug = process.env.NODE_ENV !== "production";
-
-module.exports = {
+/**
+ * @type {import('next').NextConfig}
+*/
+const nextConfig = {
+  output: 'export',
   assetPrefix: !debug ? "https://andresbonett.github.io" : "",
-};
+ 
+  // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
+  // trailingSlash: true,
+ 
+  // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
+  // skipTrailingSlashRedirect: true,
+ 
+  // Optional: Change the output directory `out` -> `dist`
+  // distDir: 'dist',
+}
+ 
+module.exports = nextConfig
