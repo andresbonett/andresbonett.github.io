@@ -1,0 +1,119 @@
+# Andres Felipe Bonett Maldonado — Perfil profesional (llms-full)
+
+Fuente canónica: https://andresbonett.com
+Actualizar preferentemente desde cv-skilldex.json del repositorio.
+
+## Identidad
+
+- Nombre: Andres Felipe Bonett Maldonado
+- Headline: Frontend Developer | React | Next.js | TypeScript
+- Ubicación: Barranquilla, Colombia
+- Disponibilidad: Remoto, híbrido o presencial
+- Años de experiencia: 5+
+- Email: andresbonettm@gmail.com
+- Teléfono: +57 3002751775
+- Portfolio: https://andresbonett.com
+- LinkedIn: https://www.linkedin.com/in/andresbonett/
+- GitHub: https://github.com/andresbonett
+
+## Resumen
+
+Frontend Developer con 5 años de experiencia en desarrollo de aplicaciones web y experiencias digitales con React, Next.js, TypeScript y JavaScript. Experiencia en arquitectura Frontend, desarrollo de componentes reutilizables, gestión de estado, integración de APIs REST, optimización de rendimiento y creación de interfaces responsivas y accesibles. Participación en más de 50 campañas y proyectos digitales para clientes y marcas de Colombia, Ecuador y México, incluyendo proyectos para Bavaria, Cervecería Nacional y Grupo Modelo. Experiencia trabajando en equipos de hasta 20 desarrolladores y participando simultáneamente en hasta 3 proyectos. Participación en migraciones y modernización de plataformas Drupal con infraestructura limitada hacia arquitecturas basadas en AWS, React y servicios backend desarrollados en Python para proyectos con alta concurrencia de usuarios. Experiencia colaborando en estimaciones técnicas, arquitectura Frontend, code reviews, flujos CI/CD y mentoría de desarrolladores junior y practicantes.
+
+## Competencias clave
+
+- Frontend Architecture
+- Reusable Components
+- State Management (Zustand, Redux Toolkit, TanStack Query)
+- REST API Integration
+- Responsive Design & Web Accessibility
+- Performance Optimization
+- Mobile App Development (React Native / Expo)
+- Code Review & Technical Estimation
+
+## Skills técnicas
+
+### Frontend
+React, Next.js, TypeScript, JavaScript ES6+, HTML5, CSS3, Sass, Tailwind CSS, CSS Modules, shadcn/ui, Vite
+
+### Estado y datos
+Zustand, Redux Toolkit, React Context, TanStack Query
+
+### APIs y routing
+REST APIs, React Router
+
+### Mobile
+React Native, Expo
+
+### Backend
+Node.js, Python
+
+### Testing
+Vitest, Jest, React Testing Library
+
+### Cloud y DevOps
+AWS, AWS Cognito, Azure, Docker, CI/CD
+
+### Herramientas
+Git, GitHub, GitHub Actions, Figma, Postman
+
+### Arquitectura y prácticas
+Frontend Architecture, Reusable Components, Responsive Design, Web Accessibility, Performance Optimization, Code Review, Technical Estimation, Agile, Scrum
+
+### CMS
+Drupal, Acquia
+
+## Experiencia
+
+### Desarrollador Frontend — 150 Porciento SAS (2021-08 – Actualidad)
+Ubicación: Bogotá / Barranquilla, Colombia. Full-time. ~5 años.
+
+Resumen: Campañas y productos digitales con React, Next.js y TypeScript para marcas de Colombia, Ecuador y México; arquitectura Frontend, APIs REST y modernización de plataformas Drupal hacia AWS.
+
+Logros / responsabilidades:
+- Desarrollo de aplicaciones web y experiencias digitales con React, Next.js, TypeScript y JavaScript, con arquitectura Frontend y componentes reutilizables.
+- Más de 50 campañas y proyectos digitales para Colombia, Ecuador y México (Bavaria, Cervecería Nacional, Grupo Modelo).
+- Experiencias para marcas como Águila, Costeña, Stella Artois, Corona, Budweiser, Pony Malta y Alpina.
+- Migración y modernización de plataformas Drupal hacia AWS, React y backends en Python para alta concurrencia.
+- Integración con APIs REST y estado con Zustand, Redux Toolkit, React Context y TanStack Query.
+- Equipos de hasta 20 desarrolladores; hasta 3 proyectos simultáneos; estimaciones, code reviews y arquitectura Frontend.
+- Docker, AWS, AWS Cognito, Azure y CI/CD.
+- Apps móviles con React Native y Expo.
+- Mentoría a junior y practicantes.
+
+Tecnologías: React, Next.js, TypeScript, JavaScript, Zustand, Redux Toolkit, TanStack Query, React Native, Expo, Sass, Tailwind CSS, Docker, AWS, AWS Cognito, Azure, Drupal, Python
+
+### Tecnólogo en Administración del Ensamble y Mantenimiento de Computadores — CompuOriente Import & Export Ltda. (2014-01 – 2021-03)
+Ubicación: Barranquilla, Colombia.
+
+Gestión de infraestructura tecnológica, soporte técnico, mantenimiento de equipos y resolución de problemas.
+
+## Proyecto destacado
+
+Ecosistema Digital AB InBev — Desarrollador Frontend.
+Campañas y experiencias digitales para Bavaria, Cervecería Nacional y Grupo Modelo (Colombia, Ecuador, México) con React, Next.js y modernización Drupal hacia AWS.
+Más de 50 iniciativas; marcas Águila, Costeña, Stella Artois, Corona, Budweiser, Pony Malta, Alpina.
+
+## Mercados, clientes y marcas
+
+- Mercados: Colombia, Ecuador, México
+- Organizaciones: Bavaria, Cervecería Nacional, Grupo Modelo, Ministerio de Educación, Universidad de Cundinamarca
+- Marcas: Águila, Costeña, Stella Artois, Corona, Budweiser, Pony Malta, Alpina
+
+## Educación
+
+- Tecnólogo en Administración del Ensamble y Mantenimiento de Computadores — SENA (Graduado)
+- Formación complementaria en Desarrollo Web y Frontend — Platzi (React, Next.js, TypeScript, JavaScript, Arquitectura Frontend)
+
+## Idiomas
+
+- Español: Nativo
+- Inglés: A2
+
+## Cómo contactar
+
+- Web: https://andresbonett.com
+- Email: andresbonettm@gmail.com
+- LinkedIn: https://www.linkedin.com/in/andresbonett/
+- GitHub: https://github.com/andresbonett
+- WhatsApp: https://wa.me/573002751775 (mensaje desde la web)

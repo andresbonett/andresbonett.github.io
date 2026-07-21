@@ -1,7 +1,7 @@
 {
   "name": "andresbonett.github.io",
   "version": "3.0.0",
-  "homepage": "https://andresbonett.github.io",
+  "homepage": "https://andresbonett.com",
   "private": true,
   "scripts": {
     "dev": "next dev",

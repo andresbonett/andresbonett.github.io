@@ -32,7 +32,7 @@ export type SkillGroup = {
 const GITHUB_URL = "https://github.com/andresbonett";
 const TELEGRAM_URL = "https://t.me/andresbonett";
 const WHATSAPP_MESSAGE =
-  "Hola Andrés, te contacto desde tu web (andresbonett.com).";
+  "Hola Andres, te contacto desde tu web (andresbonett.com).";
 
 const skillGroupLabels: Record<string, string> = {
   frontend: "Frontend",
@@ -62,7 +62,7 @@ const skillGroupOrder = [
 
 export const cv = raw;
 
-export const displayName = "Andrés Bonett";
+export const displayName = "Andres Bonett";
 
 export const githubUrl = cv.basics.links.github || GITHUB_URL;
 

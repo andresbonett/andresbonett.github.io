@@ -3,11 +3,38 @@ import Link from "next/link";
 import Header from "../../components/header";
 import Experience from "../../components/experience";
 import Footer from "../../components/footer";
-import { cv, displayName } from "../../lib/cv";
+import { cv, displayName, heroSummary } from "../../lib/cv";
+import { OG_IMAGE_PATH, SITE_URL } from "../../lib/site";
+
+const title = `Experiencia — ${displayName}`;
+const description = `Trayectoria profesional de ${displayName}: ${cv.basics.headline}.`;
 
 export const metadata: Metadata = {
-  title: `Experiencia — ${displayName}`,
-  description: `Trayectoria profesional de ${displayName}: ${cv.basics.headline}.`,
+  title,
+  description,
+  alternates: {
+    canonical: "/experiencia/",
+  },
+  openGraph: {
+    title,
+    description,
+    url: `${SITE_URL}/experiencia/`,
+    type: "profile",
+    images: [
+      {
+        url: OG_IMAGE_PATH,
+        width: 480,
+        height: 480,
+        alt: displayName,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description: heroSummary,
+    images: [OG_IMAGE_PATH],
+  },
 };
 
 export default function ExperienciaPage() {
