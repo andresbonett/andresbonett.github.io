@@ -1,43 +1,36 @@
-# gh-pages Hello World example
+# andresbonett.github.io
 
-This example shows the most basic idea behind Next. We have 2 pages: `pages/index.js` and `pages/about.js`. The former responds to `/` requests and the latter to `/about`. Using `next/link` you can add hyperlinks between them with universal routing capabilities.
+Portafolio personal de [Andrés Bonett](https://andresbonett.github.io) — desarrollador frontend.
 
-## How to use
+Sitio estático generado con **Next.js** (`output: 'export'`) y publicado en **GitHub Pages** desde la rama `gh-pages`.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example gh-pages gh-pages-app
-# or
-yarn create next-app --example gh-pages gh-pages-app
-```
-
-### Deploy it to github
-
-Edit `env-config.js` and replace `'Next-gh-page-example'` by your project name.
-
-Edit `next.config.js` and replace `'Next-gh-page-example'` by your project name.
-
-1.  Create repository.
-2.  Link it to your github account.
-3.  Publish your master branch.
+## Desarrollo
 
 ```bash
-npm run deploy
+bun install
+bun run dev
 ```
 
-Test it:
+Abre [http://localhost:3000](http://localhost:3000).
 
-Replace `<github-user-name>` and `<github-project-name>`
+## Build local
 
 ```bash
-https://<github-user-name>.github.io/<github-project-name>/
+bun run build    # genera out/ + .nojekyll
+bun run preview  # sirve out/ en local
 ```
 
-Example:
+## Deploy
 
-```bash
-https://github.com/thierryc/Next-gh-page-example/
+Cada push a `main` dispara [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml):
 
-https://thierryc.github.io/Next-gh-page-example/
-```
+1. `bun install` + `bun run build`
+2. Publica el contenido de `out/` en la rama `gh-pages`
+
+En el repositorio, GitHub Pages debe estar configurado para servir desde la rama **gh-pages** / carpeta raíz (`/`).
+
+## Stack
+
+- Next.js (App Router) + React + TypeScript
+- Export estático para SEO (HTML pre-renderizado)
+- GitHub Pages + Bun

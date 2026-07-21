@@ -1,14 +1,14 @@
-export const GTM_ID = "GTM-THH4MFC"
+export const GTM_ID = "GTM-THH4MFC";
 
 declare global {
   interface Window {
-    dataLayer: any;
+    dataLayer: Record<string, unknown>[];
   }
 }
 
-export const pageview = (url) => {
+export const pageview = (url: string) => {
   window.dataLayer.push({
-    event: 'pageview',
+    event: "pageview",
     page: url,
-  })
-}
+  });
+};

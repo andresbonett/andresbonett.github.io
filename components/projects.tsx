@@ -1,50 +1,63 @@
 import Card from "./card";
-
-const projectsList = [
-  {
-    url: "https://weather-app-andresbonett.vercel.app/",
-    image: "https://i.ibb.co/6RWzqqx/weather-app-andresbonett.png",
-    title: "Weather-app",
-  },
-  {
-    url: "https://andresbonett.github.io/huddle-landing-page/",
-    image: "https://i.ibb.co/whNTMwT/huddle-landing-page.webp",
-    title: "huddle-landing-page",
-  },
-  {
-    url: "https://andresbonett.github.io/fylo-data-storage-component/",
-    image: "https://i.ibb.co/xFdN1Dn/Fylo-data-storage.png",
-    title: "Fylo-data-storage",
-  },
-];
+import { IconCodepen } from "./icons";
+import { demoProjects, featuredProjects } from "../lib/cv";
 
 const Projects = () => {
+  const featured = featuredProjects[0];
+
   return (
-    <section id="projects" className="projects-section">
-      <h2 className="projects-section-header">These are some of my projects</h2>
+    <section id="projects" className="section reveal">
+      <div className="container">
+        <p className="section-label">Portafolio</p>
+        <h2 className="section-title">Proyectos seleccionados</h2>
 
-      <div className="projects-grid">
-        {projectsList.map(({ url, image, title }) => (
-          <Card key={url} url={url} image={image} title={title} />
-        ))}
+        {featured && (
+          <article className="featured-project">
+            <div className="featured-project-header">
+              <p className="section-label">{featured.role}</p>
+              <h3 className="featured-project-title">{featured.name}</h3>
+              <p className="featured-project-status">{featured.status}</p>
+            </div>
+            <p className="featured-project-desc">{featured.description}</p>
+            <ul className="featured-project-highlights">
+              {featured.highlights.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            <ul className="tech-tags">
+              {featured.technologies.map((tech) => (
+                <li key={tech} className="tech-tag">
+                  {tech}
+                </li>
+              ))}
+            </ul>
+          </article>
+        )}
+
+        <div className="projects-grid">
+          {demoProjects.map(({ url, image, title, description }) => (
+            <Card
+              key={url}
+              url={url}
+              image={image}
+              title={title}
+              description={description}
+            />
+          ))}
+        </div>
+
+        <div className="projects-footer">
+          <a
+            href="https://codepen.io/andresbonett/"
+            className="btn btn-secondary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <IconCodepen />
+            Más en CodePen
+          </a>
+        </div>
       </div>
-
-      <a
-        href="https://codepen.io/andresbonett/"
-        className="btn btn-show-all"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <i className="fab fa-codepen"></i> CodePen
-        <i className="fas fa-chevron-right"></i>
-      </a>
-      {/* <a
-        href="https://codepen.io/andresbonett/"
-        className="btn btn-show-all"
-        target="_blank"
-      >
-        GitHub<i className="fas fa-chevron-right"></i>
-      </a> */}
     </section>
   );
 };

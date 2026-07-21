@@ -1,19 +1,13 @@
-const debug = process.env.NODE_ENV !== "production";
-/**
- * @type {import('next').NextConfig}
-*/
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  assetPrefix: !debug ? "https://andresbonett.github.io" : "",
- 
-  // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
-  // trailingSlash: true,
- 
-  // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
-  // skipTrailingSlashRedirect: true,
- 
-  // Optional: Change the output directory `out` -> `dist`
-  // distDir: 'dist',
-}
- 
-module.exports = nextConfig
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
+  experimental: {
+    viewTransition: true,
+  },
+};
+
+module.exports = nextConfig;

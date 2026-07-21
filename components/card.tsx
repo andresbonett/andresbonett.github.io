@@ -1,18 +1,31 @@
 /* eslint-disable @next/next/no-img-element */
-const Card = ({ url, image, title }) => {
+import { IconArrow } from "./icons";
+
+type CardProps = {
+  url: string;
+  image: string;
+  title: string;
+  description?: string;
+};
+
+const Card = ({ url, image, title, description }: CardProps) => {
   return (
     <a
       href={url}
       target="_blank"
       rel="noreferrer"
-      className="project project-tile"
+      className="project-card"
     >
-      <img className="project-image" src={image} alt={title} />
-      <p className="project-title">
-        <span className="code">&lt;</span>
-        {title}
-        <span className="code">&#47;&gt;</span>
-      </p>
+      <div className="project-image-wrapper">
+        <img className="project-image" src={image} alt={title} loading="lazy" />
+      </div>
+      <div className="project-info">
+        <h3 className="project-title">{title}</h3>
+        {description && <p className="project-link-text">{description}</p>}
+        <span className="project-link-text">
+          Ver proyecto <IconArrow />
+        </span>
+      </div>
     </a>
   );
 };

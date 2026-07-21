@@ -1,18 +1,17 @@
+"use client";
+
 import { useEffect } from "react";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 import * as gtm from "../lib/gtm";
 
-const GoogleTagManager = ({ children }) => {
-  const router = useRouter();
+export default function GoogleTagManager() {
+  const pathname = usePathname();
 
   useEffect(() => {
-    router.events.on("routeChangeComplete", gtm.pageview);
-    return () => {
-      router.events.off("routeChangeComplete", gtm.pageview);
-    };
-  }, [router.events]);
+    if (pathname) {
+      gtm.pageview(pathname);
+    }
+  }, [pathname]);
 
-  return children;
-};
-
-export default GoogleTagManager;
+  return null;
+}
