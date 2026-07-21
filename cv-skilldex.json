@@ -3,44 +3,41 @@
     "fullName": "Andrés Felipe Bonett Maldonado",
     "headline": "Frontend Developer | React | Next.js | TypeScript",
     "location": "Barranquilla, Colombia",
-    "phone": "+57 300 275 1775",
+    "phone": "+57 3002751775",
     "email": "andresbonettm@gmail.com",
-    "availability": "Remoto, híbrido (Bogotá disponible) o presencial",
+    "availability": "Remoto, híbrido o presencial",
     "links": {
-      "linkedin": "https://linkedin.com/in/andresbonett",
-      "github": "",
-      "portfolio": "https://andresbonett.github.io"
+      "linkedin": "https://www.linkedin.com/in/andresbonett/",
+      "github": "https://github.com/andresbonett",
+      "portfolio": "https://andresbonett.com"
     }
   },
-  "summary": "Desarrollador Frontend con más de 5 años de experiencia especializado en la creación de aplicaciones web escalables y de alto rendimiento utilizando React, Next.js, JavaScript y TypeScript. Trayectoria probada colaborando en más de 50 proyectos digitales bajo metodologías ágiles (Scrum) para marcas globales como AB InBev. Experto en maquetación avanzada con HTML5, CSS3, SASS e integración de APIs REST. Apasionado por la optimización de la experiencia de usuario (incluyendo nociones de A/B testing y CRO) y con sólidos fundamentos en Git y arquitecturas modulares de software.",
+  "summary": "Frontend Developer con 5 años de experiencia en desarrollo de aplicaciones web y experiencias digitales con React, Next.js, TypeScript y JavaScript. Experiencia en arquitectura Frontend, desarrollo de componentes reutilizables, gestión de estado, integración de APIs REST, optimización de rendimiento y creación de interfaces responsivas y accesibles. Participación en más de 50 campañas y proyectos digitales para clientes y marcas de Colombia, Ecuador y México, incluyendo proyectos para Bavaria, Cervecería Nacional y Grupo Modelo. Experiencia trabajando en equipos de hasta 20 desarrolladores y participando simultáneamente en hasta 3 proyectos. Participación en migraciones y modernización de plataformas Drupal con infraestructura limitada hacia arquitecturas basadas en AWS, React y servicios backend desarrollados en Python para proyectos con alta concurrencia de usuarios. Experiencia colaborando en estimaciones técnicas, arquitectura Frontend, code reviews, flujos CI/CD y mentoría de desarrolladores junior y practicantes.",
   "careerFocus": "Frontend Development",
   "yearsOfExperience": 5,
   "coreCompetencies": [
     "Frontend Architecture",
-    "State Management (Zustand, Redux)",
-    "API REST & GraphQL Integration",
-    "Mobile App Development (React Native)",
-    "Cross-Browser Compatibility",
-    "Component-Driven Development",
-    "Semantic HTML5 & Modern CSS3/SASS",
-    "A/B Testing & CRO concepts"
+    "Reusable Components",
+    "State Management (Zustand, Redux Toolkit, TanStack Query)",
+    "REST API Integration",
+    "Responsive Design & Web Accessibility",
+    "Performance Optimization",
+    "Mobile App Development (React Native / Expo)",
+    "Code Review & Technical Estimation"
   ],
   "technicalSkills": {
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
     "frontend": [
       "React",
       "Next.js",
-      "JavaScript (ES6+)",
       "TypeScript",
-      "SASS",
-      "CSS3",
+      "JavaScript ES6+",
       "HTML5",
-      "Tailwind CSS"
+      "CSS3",
+      "Sass",
+      "Tailwind CSS",
+      "CSS Modules",
+      "shadcn/ui",
+      "Vite"
     ],
     "stateManagement": [
       "Zustand",
@@ -48,49 +45,51 @@
       "React Context",
       "TanStack Query"
     ],
+    "apisAndRouting": [
+      "REST APIs",
+      "React Router"
+    ],
     "mobile": [
       "React Native",
       "Expo"
     ],
     "backend": [
-      "Node.js (Básico)",
-      "Express.js (Conceptos)"
-    ],
-    "cms": [
-      "Drupal",
-      "Acquia"
+      "Node.js",
+      "Python"
     ],
     "testing": [
       "Vitest",
       "Jest",
-      "React Testing Library",
-      "A/B Testing (Conceptos)"
+      "React Testing Library"
     ],
     "cloud": [
-      "AWS Cognito (Integración Cliente)",
-      "Azure (Consumo/Despliegue)"
-    ],
-    "devopsAndInfrastructure": [
-      "Docker (Entorno local)",
-      "GitHub Actions (Monitoreo)"
-    ],
-    "versionControl": [
-      "Git",
-      "GitHub"
+      "AWS",
+      "AWS Cognito",
+      "Azure",
+      "Docker",
+      "CI/CD"
     ],
     "tools": [
+      "Git",
+      "GitHub",
+      "GitHub Actions",
       "Figma",
-      "Postman",
-      "VS Code",
-      "Adobe Target (Nociones)"
+      "Postman"
     ],
-    "aiAndDeveloperProductivity": [
-      "GitHub Copilot",
-      "ChatGPT"
+    "architectureAndPractices": [
+      "Frontend Architecture",
+      "Reusable Components",
+      "Responsive Design",
+      "Web Accessibility",
+      "Performance Optimization",
+      "Code Review",
+      "Technical Estimation",
+      "Agile",
+      "Scrum"
     ],
-    "databasesKnowledge": [
-      "SQL (Básico / En progreso)",
-      "PostgreSQL (Académico)"
+    "cms": [
+      "Drupal",
+      "Acquia"
     ]
   },
   "experience": [
@@ -102,11 +101,18 @@
       "end": "Actualidad",
       "durationLabel": "5 años",
       "employmentType": "Full-time",
-      "summary": "Liderazgo técnico en el desarrollo de la arquitectura web de múltiples productos digitales de alto impacto empresarial, aplicando Scrum y control de versiones con Git.",
+      "summary": "Campañas y productos digitales con React, Next.js y TypeScript para marcas de Colombia, Ecuador y México; arquitectura Frontend, APIs REST y modernización de plataformas Drupal hacia AWS.",
       "responsibilities": [],
       "technicalLeadership": [
-        "Definición de estándares de código limpio para React",
-        "Mentoría técnica y acompañamiento de perfiles junior"
+        "Desarrollo de aplicaciones web y experiencias digitales con React, Next.js, TypeScript y JavaScript, utilizando arquitectura Frontend y componentes reutilizables orientados a escalabilidad y mantenibilidad.",
+        "Participación en más de 50 campañas y proyectos digitales para clientes y marcas de Colombia, Ecuador y México, incluyendo proyectos para Bavaria, Cervecería Nacional y Grupo Modelo.",
+        "Desarrollo de experiencias digitales para marcas como Águila, Costeña, Stella Artois, Corona, Budweiser, Pony Malta y Alpina.",
+        "Participación en la migración y modernización de plataformas Drupal con infraestructura limitada hacia arquitecturas basadas en AWS, React y servicios backend desarrollados en Python para proyectos con alta concurrencia de usuarios.",
+        "Desarrollo e integración de interfaces con APIs REST y soluciones de gestión de estado utilizando Zustand, Redux Toolkit y React Context, junto con sincronización y gestión de datos mediante TanStack Query.",
+        "Colaboración en equipos de hasta 20 desarrolladores y participación simultánea en hasta 3 proyectos, contribuyendo en arquitectura Frontend, estimaciones técnicas, code reviews y definición de soluciones técnicas.",
+        "Trabajo con Docker, AWS, AWS Cognito, Azure y flujos CI/CD, participando en integración, revisión y mantenimiento de código en entornos cloud y procesos de despliegue.",
+        "Desarrollo de aplicaciones móviles con React Native y Expo como parte de proyectos digitales y soluciones multiplataforma.",
+        "Mentoría y acompañamiento técnico a desarrolladores junior y practicantes, promoviendo buenas prácticas de desarrollo, arquitectura Frontend y reutilización de componentes."
       ],
       "technologies": [
         "React",
@@ -119,22 +125,24 @@
         "React Native",
         "Expo",
         "Sass",
-        "CSS3",
-        "HTML5",
+        "Tailwind CSS",
         "Docker",
+        "AWS",
         "AWS Cognito",
-        "Drupal"
+        "Azure",
+        "Drupal",
+        "Python"
       ]
     },
     {
-      "title": "Tecnólogo en Administración de Soporte Tecnológico",
+      "title": "Tecnólogo en Administración del Ensamble y Mantenimiento de Computadores",
       "company": "CompuOriente Import & Export Ltda.",
       "location": "Barranquilla, Colombia",
       "start": "2014-01",
       "end": "2021-03",
       "durationLabel": "7 años 2 meses",
       "employmentType": "Full-time",
-      "summary": "Administración del soporte, redes y mantenimiento de la infraestructura de hardware corporativo.",
+      "summary": "Gestión de infraestructura tecnológica, soporte técnico, mantenimiento de equipos y resolución de problemas, fortaleciendo habilidades de análisis, documentación, organización y trabajo en equipo.",
       "responsibilities": [],
       "technicalLeadership": [],
       "technologies": []
@@ -143,113 +151,109 @@
   "featuredProjects": [
     {
       "name": "Ecosistema Digital AB InBev",
-      "role": "Desarrollador Frontend Principal",
-      "description": "Liderazgo Frontend para la creación e implementación de múltiples landings y portales institucionales de alta disponibilidad sobre Drupal y React/Next.js.",
+      "role": "Desarrollador Frontend",
+      "description": "Desarrollo de campañas y experiencias digitales para marcas de Bavaria, Cervecería Nacional y Grupo Modelo en Colombia, Ecuador y México, con React, Next.js y modernización de plataformas Drupal hacia arquitecturas en AWS.",
       "highlights": [
-        "Despliegue de más de 50 iniciativas de marketing digital.",
-        "Integración ágil de flujos dinámicos de usuario e interacción interactiva.",
-        "Maquetación responsiva avanzada usando SASS, CSS3 semántico y HTML5."
+        "Más de 50 campañas y proyectos digitales para clientes en Colombia, Ecuador y México.",
+        "Experiencias para marcas como Águila, Costeña, Stella Artois, Corona, Budweiser, Pony Malta y Alpina.",
+        "Migración y modernización de plataformas Drupal hacia AWS, React y servicios backend en Python para alta concurrencia."
       ],
       "technologies": [
         "React",
         "Next.js",
+        "TypeScript",
         "Drupal",
         "Acquia",
+        "AWS",
         "Sass",
-        "CSS3",
-        "HTML5",
         "Git"
       ],
       "status": "Completado / En Producción"
     }
   ],
   "leadershipAndCollaboration": [
-    "Mentoría directa de desarrolladores Frontend junior y practicantes dentro del equipo.",
-    "Liderazgo en sesiones de Code Review enfocadas en mantenibilidad del código, consistencia tipográfica y buenas prácticas de desarrollo."
+    "Mentoría y acompañamiento técnico a desarrolladores junior y practicantes, promoviendo buenas prácticas de desarrollo, arquitectura Frontend y reutilización de componentes.",
+    "Participación en estimaciones técnicas, arquitectura Frontend, code reviews y definición de soluciones técnicas en equipos de hasta 20 desarrolladores."
   ],
   "cloudAndInfrastructureExperience": {
     "azure": {
-      "level": "Básico",
-      "description": "Uso y monitoreo de entornos Azure asignados a flujos de despliegue continuo de portales web.",
+      "level": "Intermedio",
+      "description": "Trabajo con Azure en integración, revisión y mantenimiento de código en entornos cloud y procesos de despliegue.",
       "implementationLevel": ""
     },
     "aws": {
-      "level": "Básico",
-      "description": "Integración y consumo de flujos de autenticación utilizando AWS Cognito exclusivamente en el desarrollo Frontend.",
+      "level": "Intermedio",
+      "description": "Participación en migraciones hacia arquitecturas basadas en AWS, integración con AWS Cognito y revisión de código relacionado con AWS en el lado Frontend.",
       "implementationLevel": ""
     },
     "docker": {
       "level": "Intermedio",
-      "description": "Configuración y ejecución de entornos locales dockerizados provistos por el equipo backend para unificar flujos de desarrollo local.",
+      "description": "Trabajo con Docker en entornos de desarrollo y despliegue de proyectos digitales.",
       "implementationLevel": ""
     },
     "ciCd": {
-      "level": "Básico",
-      "description": "Colaboración técnica con ingenieros DevOps para la configuración de despliegues automatizados de interfaces Frontend.",
+      "level": "Intermedio",
+      "description": "Participación en flujos CI/CD e integración de procesos de despliegue.",
       "implementationLevel": ""
     },
     "githubActions": {
-      "level": "Básico",
-      "description": "Monitoreo e inicio de flujos automatizados de compilación y pruebas.",
-      "implementationLevel": ""
-    },
-    "nginx": {
-      "level": "Básico",
-      "description": "Familiaridad con la configuración básica de enrutamiento web estático.",
+      "level": "Intermedio",
+      "description": "Uso de GitHub Actions en flujos de integración y despliegue.",
       "implementationLevel": ""
     }
   },
-  "aiAndDeveloperProductivity": {
-    "primaryTools": [
-      "GitHub Copilot",
-      "ChatGPT"
+  "additionalExperience": {
+    "teamSize": "Equipos de hasta 20 desarrolladores",
+    "simultaneousProjects": "Hasta 3 proyectos simultáneos",
+    "digitalProjects": "Más de 50 campañas y proyectos digitales",
+    "markets": ["Colombia", "Ecuador", "México"],
+    "clientsAndOrganizations": [
+      "Bavaria",
+      "Cervecería Nacional",
+      "Grupo Modelo",
+      "Ministerio de Educación",
+      "Universidad de Cundinamarca"
     ],
-    "secondaryExperience": [],
-    "description": "Uso de herramientas de IA generativa para agilizar la escritura de pruebas, optimizar funciones en JS/TS y acelerar la documentación de componentes.",
-    "usageAreas": [
-      "Pruebas unitarias con Vitest/Jest",
-      "Refactorización de código e incrementos de performance"
-    ]
-  },
-  "designAndProductCollaboration": {
-    "tools": [
-      "Figma",
-      "Zeplin"
+    "brands": [
+      "Águila",
+      "Costeña",
+      "Stella Artois",
+      "Corona",
+      "Budweiser",
+      "Pony Malta",
+      "Alpina"
     ],
-    "activities": [
-      "Traducción exacta de wireframes de alta fidelidad en Figma a componentes modulares React.",
-      "Participación en mesas de diseño UX para validar viabilidad de animaciones y performance en navegadores móviles."
-    ]
-  },
-  "databasesAndBackendLearning": {
-    "professionalExperience": "Integración y consumo directo de APIs estructuradas por equipos de Backend.",
-    "backendExperience": [
-      "Consumo masivo de REST APIs",
-      "Integración con CMS Headless (Drupal)"
-    ],
-    "academicAndSelfLearning": [
-      "Bases de Datos Relacionales (SQL y PostgreSQL)",
-      "Flujos de desarrollo local en Node.js y Express"
+    "technicalExposure": [
+      "Migración y modernización de plataformas Drupal",
+      "Migración de infraestructura con recursos limitados hacia AWS",
+      "Desarrollo Frontend con React",
+      "Integración con servicios backend desarrollados en Python",
+      "Proyectos con alta concurrencia de usuarios",
+      "Integración y revisión de código relacionado con AWS",
+      "Integración con AWS Cognito",
+      "Trabajo con Azure",
+      "Participación en flujos CI/CD",
+      "Trabajo con Docker"
     ]
   },
   "education": [
     {
       "title": "Tecnólogo en Administración del Ensamble y Mantenimiento de Computadores",
       "institution": "Servicio Nacional de Aprendizaje (SENA)",
-      "start": "2012",
+      "start": "",
       "end": "",
       "type": "",
       "status": "Graduado",
       "detail": ""
     },
     {
-      "title": "Formación especializada en Desarrollo Web y Frontend",
+      "title": "Formación complementaria en Desarrollo Web y Frontend",
       "institution": "Platzi",
       "start": "",
       "end": "",
-      "type": "Especialización técnica",
+      "type": "Formación complementaria",
       "status": "Completada",
-      "detail": ""
+      "detail": "React, Next.js, TypeScript, JavaScript, Arquitectura Frontend"
     }
   ],
   "languages": [
@@ -260,21 +264,20 @@
     },
     {
       "name": "Inglés",
-      "level": "A2 (En preparación activa hacia B2)",
+      "level": "A2",
       "status": ""
     }
   ],
   "methodologies": [
     "Scrum",
-    "Agile",
-    "GitFlow"
+    "Agile"
   ],
   "softSkills": [
     "Trabajo en equipo",
     "Pensamiento analítico",
-    "Resolución de problemas complejos",
+    "Resolución de problemas",
     "Comunicación efectiva",
-    "Ownership (Sentido de pertenencia)",
+    "Mentoría",
     "Proactividad",
     "Flexibilidad y adaptabilidad"
   ],
@@ -301,27 +304,34 @@
     "HTML5",
     "Git",
     "Sass",
+    "Tailwind CSS",
     "Scrum",
+    "Agile",
     "Zustand",
     "Redux Toolkit",
     "TanStack Query",
     "React Native",
+    "Expo",
     "REST APIs",
-    "GraphQL",
-    "SQL",
     "Node.js",
-    "A/B testing",
-    "Testing",
+    "Python",
+    "AWS",
+    "AWS Cognito",
+    "Azure",
+    "Docker",
+    "CI/CD",
+    "Vitest",
     "Jest",
-    "Vitest"
+    "React Testing Library",
+    "Drupal",
+    "Web Accessibility",
+    "Performance Optimization"
   ],
   "cvNotes": {
-    "positioning": "Frontend Developer especializado en el ecosistema React/Next.js con un fuerte enfoque en calidad de interfaces, modularidad de código y reusabilidad.",
+    "positioning": "Frontend Developer especializado en el ecosistema React/Next.js con enfoque en arquitectura Frontend, componentes reutilizables, rendimiento y accesibilidad.",
     "accuracy": [
-      "Toda la experiencia con AWS, Azure y Docker es periférica y de uso local o integración directa en el lado del cliente (Frontend). No representa un perfil DevOps."
+      "Experiencia cloud (AWS, Azure, Docker, CI/CD) en el contexto de desarrollo Frontend: integración, revisión de código y colaboración en despliegues. No representa un perfil DevOps exclusivo."
     ],
-    "missingDataToValidateBeforeFinalCV": [
-      "Añadir datos porcentuales de optimización de rendimiento (ej. aumento del 15% en velocidad de carga)."
-    ]
+    "missingDataToValidateBeforeFinalCV": []
   }
 }

@@ -3,6 +3,7 @@ import {
   IconGithub,
   IconLinkedin,
   IconTelegram,
+  IconWhatsApp,
 } from "./icons";
 import {
   cv,
@@ -10,9 +11,16 @@ import {
   githubUrl,
   linkedinUrl,
   telegramUrl,
+  whatsappUrl,
 } from "../lib/cv";
 
 const contactLinks = [
+  {
+    href: whatsappUrl,
+    label: "WhatsApp",
+    icon: IconWhatsApp,
+    external: true,
+  },
   {
     href: `mailto:${email}`,
     label: "Email",
@@ -53,7 +61,7 @@ const Contact = () => {
         <div className="contact-links">
           {contactLinks.map(({ href, label, icon: Icon, external }) => (
             <a
-              key={href}
+              key={label}
               href={href}
               {...(external
                 ? { target: "_blank", rel: "noreferrer" }
@@ -61,9 +69,20 @@ const Contact = () => {
               className="contact-link"
             >
               <Icon />
-              {label}
+              <span>{label}</span>
             </a>
           ))}
+        </div>
+        <div className="contact-cta">
+          <a
+            href={whatsappUrl}
+            className="btn btn-primary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <IconWhatsApp />
+            WhatsApp
+          </a>
         </div>
       </div>
     </section>

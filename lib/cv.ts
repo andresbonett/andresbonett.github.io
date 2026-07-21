@@ -31,31 +31,33 @@ export type SkillGroup = {
 
 const GITHUB_URL = "https://github.com/andresbonett";
 const TELEGRAM_URL = "https://t.me/andresbonett";
+const WHATSAPP_MESSAGE =
+  "Hola Andrés, te contacto desde tu web (andresbonett.com).";
 
 const skillGroupLabels: Record<string, string> = {
   frontend: "Frontend",
-  stateManagement: "Estado",
+  stateManagement: "Estado y datos",
+  apisAndRouting: "APIs y routing",
   mobile: "Mobile",
-  cms: "CMS",
+  backend: "Backend",
   testing: "Testing",
+  cloud: "Cloud y DevOps",
   tools: "Herramientas",
-  languages: "Lenguajes",
-  devopsAndInfrastructure: "DevOps",
-  cloud: "Cloud",
-  aiAndDeveloperProductivity: "IA & productividad",
+  architectureAndPractices: "Arquitectura y prácticas",
+  cms: "CMS",
 };
 
 const skillGroupOrder = [
   "frontend",
   "stateManagement",
+  "apisAndRouting",
   "mobile",
-  "cms",
+  "backend",
   "testing",
-  "tools",
-  "languages",
-  "devopsAndInfrastructure",
   "cloud",
-  "aiAndDeveloperProductivity",
+  "tools",
+  "architectureAndPractices",
+  "cms",
 ] as const;
 
 export const cv = raw;
@@ -71,6 +73,14 @@ export const linkedinUrl = cv.basics.links.linkedin.startsWith("http")
 export const telegramUrl = TELEGRAM_URL;
 
 export const email = cv.basics.email;
+
+export const phone = cv.basics.phone;
+
+export const whatsappMessage = WHATSAPP_MESSAGE;
+
+const whatsappNumber = phone.replace(/\D/g, "");
+
+export const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
 /** Short hero blurb from the full CV summary (first two sentences). */
 export const heroSummary = cv.summary.split(/(?<=\.)\s+/).slice(0, 2).join(" ");

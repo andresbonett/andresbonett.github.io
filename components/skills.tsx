@@ -1,6 +1,8 @@
 import { skillGroups } from "../lib/cv";
 
 const Skills = () => {
+  let skillIndex = 0;
+
   return (
     <section id="skills" className="section reveal">
       <div className="container">
@@ -11,11 +13,19 @@ const Skills = () => {
             <div key={group.id} className="skills-group">
               <h3 className="skills-group-title">{group.label}</h3>
               <ul className="skills-grid">
-                {group.skills.map((skill) => (
-                  <li key={skill} className="skill-item">
-                    {skill}
-                  </li>
-                ))}
+                {group.skills.map((skill) => {
+                  const delay = Math.min(skillIndex, 24) * 30;
+                  skillIndex += 1;
+                  return (
+                    <li
+                      key={skill}
+                      className="skill-item"
+                      style={{ animationDelay: `${delay}ms` }}
+                    >
+                      {skill}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}
