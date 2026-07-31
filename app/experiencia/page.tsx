@@ -3,8 +3,15 @@ import Link from "next/link";
 import Header from "../../components/header";
 import Experience from "../../components/experience";
 import Footer from "../../components/footer";
-import { cv, displayName, heroSummary } from "../../lib/cv";
-import { OG_IMAGE_PATH, SITE_URL } from "../../lib/site";
+import { cv, displayName } from "../../lib/cv";
+import {
+  OG_IMAGE_HEIGHT,
+  OG_IMAGE_PATH,
+  OG_IMAGE_WIDTH,
+  SITE_DESCRIPTION,
+  SITE_URL,
+  TWITTER_SITE,
+} from "../../lib/site";
 
 const title = `Experiencia — ${displayName}`;
 const description = `Trayectoria profesional de ${displayName}: ${cv.basics.headline}.`;
@@ -23,16 +30,17 @@ export const metadata: Metadata = {
     images: [
       {
         url: OG_IMAGE_PATH,
-        width: 480,
-        height: 480,
+        width: OG_IMAGE_WIDTH,
+        height: OG_IMAGE_HEIGHT,
         alt: displayName,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
+    site: TWITTER_SITE,
     title,
-    description: heroSummary,
+    description: SITE_DESCRIPTION,
     images: [OG_IMAGE_PATH],
   },
 };

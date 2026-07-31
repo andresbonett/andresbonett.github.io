@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { ViewTransition } from "react";
 import AmbientBackground from "../components/ambient-background";
@@ -13,7 +13,17 @@ import {
   linkedinUrl,
 } from "../lib/cv";
 import { GTM_ID } from "../lib/gtm";
-import { OG_IMAGE_PATH, SITE_NAME, SITE_URL } from "../lib/site";
+import {
+  OG_IMAGE_HEIGHT,
+  OG_IMAGE_PATH,
+  OG_IMAGE_WIDTH,
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  SITE_URL,
+  THEME_COLOR,
+  TWITTER_SITE,
+  PROFILE_IMAGE_PATH,
+} from "../lib/site";
 import "../styles/global.css";
 
 const pageTitle = `${displayName} — ${cv.careerPositioning.recommendedHeadline}`;
@@ -21,7 +31,7 @@ const pageTitle = `${displayName} — ${cv.careerPositioning.recommendedHeadline
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: pageTitle,
-  description: heroSummary,
+  description: SITE_DESCRIPTION,
   keywords: cv.atsKeywords,
   alternates: {
     canonical: "/",
@@ -30,9 +40,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  manifest: "/site.webmanifest",
   openGraph: {
     title: `${displayName} — Desarrollador Frontend`,
-    description: heroSummary,
+    description: SITE_DESCRIPTION,
     type: "website",
     url: SITE_URL,
     siteName: SITE_NAME,
@@ -40,21 +51,37 @@ export const metadata: Metadata = {
     images: [
       {
         url: OG_IMAGE_PATH,
-        width: 480,
-        height: 480,
+        width: OG_IMAGE_WIDTH,
+        height: OG_IMAGE_HEIGHT,
         alt: displayName,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
+    site: TWITTER_SITE,
     title: `${displayName} — Desarrollador Frontend`,
-    description: heroSummary,
+    description: SITE_DESCRIPTION,
     images: [OG_IMAGE_PATH],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      {
+        url: "/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: THEME_COLOR,
 };
 
 const jsonLd = {
@@ -86,7 +113,7 @@ const jsonLd = {
       jobTitle: cv.basics.headline,
       url: SITE_URL,
       email,
-      image: `${SITE_URL}${OG_IMAGE_PATH}`,
+      image: `${SITE_URL}${PROFILE_IMAGE_PATH}`,
       homeLocation: {
         "@type": "Place",
         name: cv.basics.location,
