@@ -1,0 +1,23 @@
+# Andres Bonett
+
+> Frontend Developer | React | Next.js | TypeScript. Barranquilla, Colombia. Disponible remoto, híbrido o presencial. 5+ años de experiencia en aplicaciones web y experiencias digitales.
+
+## Páginas
+
+- [Inicio](https://andresbonett.com/): Portafolio, skills, proyectos y contacto
+- [Experiencia](https://andresbonett.com/experiencia/): Trayectoria profesional y CV
+- [Sitemap](https://andresbonett.com/sitemap.xml): Mapa del sitio para buscadores
+- [Perfil completo para LLMs](https://andresbonett.com/llms-full.txt): Resumen denso del CV en texto plano
+
+## Perfil
+
+- Stack principal: React, Next.js, TypeScript, JavaScript, Tailwind CSS, Sass
+- Estado y datos: Zustand, Redux Toolkit, TanStack Query
+- Mobile: React Native, Expo
+- Cloud: AWS, AWS Cognito, Azure, Docker, CI/CD
+- Más de 50 campañas digitales para Colombia, Ecuador y México (Bavaria, Cervecería Nacional, Grupo Modelo)
+- Contacto: andresbonettm@gmail.com | https://www.linkedin.com/in/andresbonett/ | https://github.com/andresbonett
+
+## Optional
+
+- [llms-full.txt](https://andresbonett.com/llms-full.txt): Perfil profesional completo para ingestión por agentes y RAG
